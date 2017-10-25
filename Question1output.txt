@@ -1,0 +1,14 @@
+tests-MBP:stack gushuqin$ javac Calculator.java
+tests-MBP:stack gushuqin$ java Calculator 7**
+Caught Exception: you need to enter number, number belongs here!
+tests-MBP:stack gushuqin$ java Calculator 7*7-
+7 7 *  -
+Caught Exception: missing number, you DUMBASS!
+tests-MBP:stack gushuqin$ java Calculator "8*9+(7%5)-4/2+10*(7-8)"
+8 9 * 7 5 % + 4 2 / - 10 7 8 - * +
+result = 62.0
+tests-MBP:stack gushuqin$ java Calculator 8/0
+8 0 /
+Caught Exception: Can't divide by zero!
+tests-MBP:stack gushuqin$ java Calculator "8&7"
+Caught Exception: this is not a legal operator

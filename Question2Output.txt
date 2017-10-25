@@ -1,0 +1,5 @@
+tests-MBP:stack gushuqin$ javac Serialization.java TransientStaticVariable.java
+tests-MBP:stack gushuqin$ java Serialization TransientStaticVariable
+Constructort
+tests-MBP:stack gushuqin$ 
+

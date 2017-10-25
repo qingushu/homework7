@@ -1,0 +1,7 @@
+Static Variable
+
+Static variables belong to a class and not to any individual instance. The concept of serialization is concerned with the object’s current state. Only data associated with a specific instance of a class is serialized, therefore static member fields  are ignored during serialization.
+
+Transient Variable
+
+While serialization if you don’t want to save state of a variable. You have to mark that variable as Transient. Environment will know that this variable should be ignored and will not save the value of same.
